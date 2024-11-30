@@ -1,13 +1,32 @@
 body {
-    background-color: lightblue;
+  background-color: #e0f7fa;  
+  color: #333;               
+}
+
+h1 {
+  color: #444;                
+  font-size: 2em;
+}
+
+h2 {
+  color: #555;                
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.gallery img {
+  margin: 10px;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+
+@media (max-width: 600px) {
+  .gallery img {
+      width: 100%;
+      height: auto;
   }
-  
-  h1 {
-    color: white;
-    text-align: center;
-  }
-  
-  p {
-    font-family: verdana;
-    font-size: 20px;
-  }
+}
