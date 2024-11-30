@@ -1,32 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 body {
-  background-color: #e0f7fa;  
-  color: #333;               
+  background-color: lightblue;
 }
 
 h1 {
-  color: #444;                
-  font-size: 2em;
+  color: white;
+  text-align: center;
 }
 
-h2 {
-  color: #555;                
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 5px;
+p {
+  font-family: verdana;
+  font-size: 20px;
 }
+</style>
+</head>
+<body>
 
-.gallery img {
-  margin: 10px;
-  width: 200px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-}
+<h1>My First CSS Example</h1>
+<p>This is a paragraph.</p>
 
-
-@media (max-width: 600px) {
-  .gallery img {
-      width: 100%;
-      height: auto;
-  }
-}
+</body>
+</html>
