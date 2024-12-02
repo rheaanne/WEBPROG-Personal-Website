@@ -1,11 +1,11 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: DodgerBlue;
+    background-color: rgb(255, 30, 218);
   }
    
   .flex-container > div {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     width: 100px;
     margin: 10px;
     text-align: center;
