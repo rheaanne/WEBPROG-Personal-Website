@@ -6,10 +6,10 @@
    
   .flex-container > div {
     background-color: #ffffff;
-    width: 150px;
+    width: 200px;
     margin: 10px;
     text-align: center;
-    line-height: 15px;
+    line-height: 20px;
     font-size: 15px;
   }
   
