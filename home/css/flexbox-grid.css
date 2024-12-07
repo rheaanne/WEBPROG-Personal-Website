@@ -1,80 +1,136 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.8;
-    margin: 0;
-    padding: 0;
-    background-color: #ffe4e9; 
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhea Anne Danao - Personal Profile</title>
+    <link rel="stylesheet" href="css/flexbox-grid.css?version=0.1">
 
-h1 {
-    text-align: center;
-    margin-top: 20px;
-    color: #ffffff;
-    background-color: #d81b60; 
-    padding: 20px;
-    border-radius: 8px;
-}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe4e9; /* Light pink background */
+            color: #333;
+        }
 
-h2 {
-    color: #ffffff;
-    background-color: #ec407a; 
-    padding: 10px;
-    border-radius: 8px;
-}
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #d81b60; /* Deep pink */
+            padding: 20px;
+            border-radius: 8px;
+        }
 
+        h2 {
+            color: #ffffff;
+            background-color: #ec407a; /* Medium pink */
+            padding: 10px;
+            border-radius: 8px;
+        }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    margin: 0 auto;
-}
+        .section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-.section {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+        /* Flexbox Container for layout */
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+        .flex-container.row {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-.flex-container.row {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
+        /* Footer Gallery */
+        footer {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            background-color: #ffffff;
+            margin-top: 20px;
+        }
 
+        footer img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            transition: transform 0.3s;
+        }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 15px;
-}
+        footer img:hover {
+            transform: scale(1.05);
+        }
 
-.gallery img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    transition: transform 0.3s;
-}
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            footer img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
 
-.gallery img:hover {
-    transform: scale(1.05);
-}
+    <h1>Personal Profile Webpage</h1>
 
-/* Responsive Design */
-@media (max-width: 600px) {
-    .gallery img {
-        width: 100%;
-        height: auto;
-    }
-}
+    <div class="section">
+        <h2>About Me</h2>
+        <p>Hello, I'm Rhea. You can call me "Eyya." I'm a province girl from Isabela. An anonymous person gave me the opportunity to continue my studies at a college here in Makati. I never thought I would leave my small town and move to the big city.</p>
+    </div>
+
+    <div class="section">
+        <h2>Education & Achievements</h2>
+        <p><strong>Elementary:</strong> Binguang Elementary School (2016-2017)</p>
+        <p><strong>Secondary:</strong> San Pablo National High School (2020-2021) - Graduated with Honors</p>
+        <p><strong>Senior High:</strong> San Pablo National High School (2022-2023) - Graduated with Honors</p>
+        <p><strong>Tertiary:</strong> Asia Pacific College (2022-2023)</p>
+        <ul>
+            <li>Executive Director of APC-MSC Membership Committee</li>
+            <li>With Honors (2023-2024)</li>
+        </ul>
+        <p><strong>Course:</strong> Bachelor of Science in Information Technology</p>
+    </div>
+
+    <div class="section">
+        <h2>IT Experience</h2>
+        <p>In my first year, I gained experience coding with Java and Python. I learned basic tools for using a computer, though my knowledge was limited in high school.</p>
+    </div>
+
+    <div class="section">
+        <h2>Hobbies & Interests</h2>
+        <p>I love reading books, exploring technology, engaging in sports, and finding all sorts of engaging things to do.</p>
+    </div>
+
+    <div class="section">
+        <h2>Goals in Life</h2>
+        <p>My dream is to pursue an IT degree and start my own tech company.</p>
+    </div>
+
+    <!-- Footer Gallery -->
+    <footer>
+        <h2>Picture Gallery</h2>
+        <img src="https://i.ibb.co/wgYmVKb/image1.jpg" alt="Gallery Image 1">
+        <img src="https://i.ibb.co/8j5PQKX/image2.jpg" alt="Gallery Image 2">
+        <img src="https://i.ibb.co/wJycv0v/image3.jpg" alt="Gallery Image 3">
+        <img src="https://i.ibb.co/JkcrR7M/image4.jpg" alt="Gallery Image 4">
+        <img src="https://i.ibb.co/pjXj3nv/image5.jpg" alt="Gallery Image 5">
+        <img src="https://i.ibb.co/TvdjQwF/image6.jpg" alt="Gallery Image 6">
+    </footer>
+
+</body>
+</html>
