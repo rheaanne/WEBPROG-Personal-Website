@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/flexbox-grid.css?version=0.3">
+    <link rel="stylesheet" href="css/flexbox-grid.css?version=0.4">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rhea Anne Danao - Personal Profile</title>
     <style>
-        /* General Styles */
+       
         body {
             font-family: Arial, sans-serif;
             line-height: 1.8;
             margin: 0;
             padding: 0;
-            background-color: #ffe4e9; /* Light pink background */
+            background-color: #ffe4e9; 
             color: #333;
             display: flex;
             flex-direction: column;
-            min-height: 100vh; /* Ensure footer stays at the bottom */
+            min-height: 100vh; 
         }
 
         h1 {
             text-align: center;
             margin-top: 20px;
             color: #ffffff;
-            background-color: #d81b60; /* Deep pink */
+            background-color: #d81b60;
             padding: 20px;
             border-radius: 8px;
         }
 
         h2 {
             color: #ffffff;
-            background-color: #ec407a; /* Medium pink */
+            background-color: #ec407a;
             padding: 10px;
             border-radius: 8px;
         }
@@ -42,7 +42,7 @@
             gap: 20px;
             padding: 20px;
             margin: 0 auto;
-            flex-grow: 1; /* Ensure content area expands */
+            flex-grow: 1; 
         }
 
         .section {
@@ -64,13 +64,12 @@
             align-items: center;
         }
 
-        /* Footer Styling */
         footer {
             display: grid;
             grid-template-columns: 1fr;
             grid-gap: 20px;
             padding: 20px;
-            background-color: #f8bbd0; /* Light pink footer */
+            background-color: #f8bbd0; 
         }
 
         footer .gallery {
@@ -94,7 +93,7 @@
             transform: scale(1.05);
         }
 
-        /* Responsive Design */
+       
         @media (max-width: 600px) {
             footer .gallery img {
                 width: 100%;
@@ -107,7 +106,6 @@
 
     <h1>Personal Profile Webpage</h1>
 
-    <!-- Grid Container for Main Content -->
     <div class="grid-container">
         <div class="section">
             <h2>About Me</h2>
@@ -153,18 +151,21 @@
         </div>
     </div>
 
-    <!-- Footer with Gallery -->
     <footer>
-        <div class="gallery">
-            <h2>Picture Gallery</h2>
-            <img src="https://i.ibb.co/wgYmVKb/image1.jpg" alt="Gallery Image 1">
-            <img src="https://i.ibb.co/8j5PQKX/image2.jpg" alt="Gallery Image 2">
-            <img src="https://i.ibb.co/wJycv0v/image3.jpg" alt="Gallery Image 3">
-            <img src="https://i.ibb.co/JkcrR7M/image4.jpg" alt="Gallery Image 4">
-            <img src="https://i.ibb.co/pjXj3nv/image5.jpg" alt="Gallery Image 5">
-            <img src="https://i.ibb.co/TvdjQwF/image6.jpg" alt="Gallery Image 6">
+        <div class="grid-container">
+            <div class="section"></div>
+                <h2>Picture Gallery</h2>
+                <div class="flex-container"></div>
+                    <img src="https://i.ibb.co/wgYmVKb/image1.jpg" alt="Gallery Image 1">
+                    <img src="https://i.ibb.co/8j5PQKX/image2.jpg" alt="Gallery Image 2">
+                    <img src="https://i.ibb.co/wJycv0v/image3.jpg" alt="Gallery Image 3">
+                    <img src="https://i.ibb.co/JkcrR7M/image4.jpg" alt="Gallery Image 4">
+                    <img src="https://i.ibb.co/pjXj3nv/image5.jpg" alt="Gallery Image 5">
+                    <img src="https://i.ibb.co/TvdjQwF/image6.jpg" alt="Gallery Image 6">
+                </div>
+            </div>
         </div>
     </footer>
-
+   
 </body>
 </html>
