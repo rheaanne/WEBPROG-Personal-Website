@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/flexbox-grid.css?version=0.1">
+    <link rel="stylesheet" href="css/flexbox-grid.css?version=0.2">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,8 +12,11 @@
             line-height: 1.8;
             margin: 0;
             padding: 0;
-            background-color: #ffe4e9; 
+            background-color: #ffe4e9;
             color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
         h1 {
@@ -38,7 +41,7 @@
             gap: 20px;
             padding: 20px;
             margin: 0 auto;
-        }
+            flex-grow: 1;
 
         .section {
             background-color: #ffffff;
@@ -59,13 +62,15 @@
             align-items: center;
         }
 
-        .gallery {
+        footer .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             gap: 15px;
+            padding: 20px;
+            background-color: #f8bbd0; 
         }
 
-        .gallery img {
+        footer .gallery img {
             width: 100%;
             height: auto;
             object-fit: cover;
@@ -74,7 +79,7 @@
             transition: transform 0.3s;
         }
 
-        .gallery img:hover {
+        footer .gallery img:hover {
             transform: scale(1.05);
         }
 
@@ -133,19 +138,19 @@
                 <p>My dream is to pursue an IT degree and start my own tech company.</p>
             </div>
         </div>
-
-        <div class="section gallery">
-            <h2>Picture Gallery</h2>
-            <div class="gallery">
-                <img src="https://i.ibb.co/wgYmVKb/image1.jpg" alt="Gallery Image 1">
-                <img src="https://i.ibb.co/8j5PQKX/image2.jpg" alt="Gallery Image 2">
-                <img src="https://i.ibb.co/wJycv0v/image3.jpg" alt="Gallery Image 3">
-                <img src="https://i.ibb.co/JkcrR7M/image4.jpg" alt="Gallery Image 4">
-                <img src="https://i.ibb.co/pjXj3nv/image5.jpg" alt="Gallery Image 5">
-                <img src="https://i.ibb.co/TvdjQwF/image6.jpg" alt="Gallery Image 6">
-            </div>
-        </div>
     </div>
+
+    <footer>
+        <div class="gallery">
+            <h2>Picture Gallery</h2>
+            <img src="https://i.ibb.co/wgYmVKb/image1.jpg" alt="Gallery Image 1">
+            <img src="https://i.ibb.co/8j5PQKX/image2.jpg" alt="Gallery Image 2">
+            <img src="https://i.ibb.co/wJycv0v/image3.jpg" alt="Gallery Image 3">
+            <img src="https://i.ibb.co/JkcrR7M/image4.jpg" alt="Gallery Image 4">
+            <img src="https://i.ibb.co/pjXj3nv/image5.jpg" alt="Gallery Image 5">
+            <img src="https://i.ibb.co/TvdjQwF/image6.jpg" alt="Gallery Image 6">
+        </div>
+    </footer>
 
 </body>
 </html>
