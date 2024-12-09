@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/mystyle.css">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,28 +58,36 @@
 <body>
 <div class="container-fluid mt-3">
     <h1>Personal Profile Webpage</h1>
+     <div class="row">
+        <div class="container-fluid">
+            <div class="col-md bg-primary text-white">
+            <h2>About Me</h2>
+            <p>Hello, I'm Rhea. You can call me "Eyya." I'm a province girl from Isabela. An anonymous person gave me the opportunity to continue my studies at a college here in Makati. I never thought I would leave my small town and move to the big city.</p>
+            </div>
+        </div>
+
+        <div class="col-md bg-primary text-white">
+            <h2>Education & Achievements</h2>
+            <p><strong>Elementary:</strong> Binguang Elementary School (2016-2017)</p>
+            <p><strong>Secondary:</strong> San Pablo National High School (2020-2021) - Graduated with Honors</p>
+            <p><strong>Senior High:</strong> San Pablo National High School (2022-2023) - Graduated with Honors</p>
+            <p><strong>Tertiary:</strong> Asia Pacific College (2022-2023)</p>
+            <ul>
+                <li>Executive Director of APC-MSC Membership Committee</li>
+                <li>With Honors (2023-2024)</li>
+            </ul>
+            <p><strong>Course:</strong> Bachelor of Science in Information Technology</p>
+        </div>    
+    </div>
+    <br>
 
     <div class="container-fluid">
-        <h2>About Me</h2>
-        <p>Hello, I'm Rhea. You can call me "Eyya." I'm a province girl from Isabela. An anonymous person gave me the opportunity to continue my studies at a college here in Makati. I never thought I would leave my small town and move to the big city.</p>
-    </div>
-
-    <div class="col-md bg-primary text-white">
-        <h2>Education & Achievements</h2>
-        <p><strong>Elementary:</strong> Binguang Elementary School (2016-2017)</p>
-        <p><strong>Secondary:</strong> San Pablo National High School (2020-2021) - Graduated with Honors</p>
-        <p><strong>Senior High:</strong> San Pablo National High School (2022-2023) - Graduated with Honors</p>
-        <p><strong>Tertiary:</strong> Asia Pacific College (2022-2023)</p>
-        <ul>
-            <li>Executive Director of APC-MSC Membership Committee</li>
-            <li>With Honors (2023-2024)</li>
-        </ul>
-        <p><strong>Course:</strong> Bachelor of Science in Information Technology</p>
-    </div>
-
-    <div class="col-md bg-dark text-white">
-        <h2>IT Experience</h2>
-        <p>In my first year, I gained experience coding with Java and Python. I learned basic tools for using a computer, though my knowledge was limited in high school.</p>
+        <div class="row">
+            <div class="col-md bg-primary text-white">
+            <h2>IT Experience</h2>
+            <p>In my first year, I gained experience coding with Java and Python. I learned basic tools for using a computer, though my knowledge was limited in high school.</p>
+            </div>
+        </div>
     </div>
 
     <div class="col-md bg-primary text-white">
@@ -93,7 +100,7 @@
         <p>My dream is to pursue an IT degree and start my own tech company.</p>
     </div>
 
-    <div class="col-md bg-dark text-white">
+    <div class="container-fluid mt-3">
         <h2>Picture Gallery</h2>
         <p>
             <img src="https://i.ibb.co/wgYmVKb/image1.jpg" alt="Gallery Image 1">
@@ -108,3 +115,23 @@
 </body>
 </html>
 
+<div class="container-fluid mt-3">
+    <h1>Responsive Auto Layout Columns</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md bg-primary text-white">1 of 2 About me</div>
+        <div class="col-md bg-dark text-white">2 of 2 Education and Achievements</div>
+      </div>  
+    </div>
+    <br>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md bg-primary text-white">1 of 4 Experience</div>
+        <div class="col-md bg-dark text-white">2 of 4 Hobbies and Interest</div>
+        <div class="col-md bg-primary text-white">3 of 4 Goal in Life</div>
+        <div class="col-md bg-dark text-white">4 of 4 Picture Gallery</div>
+      </div>  
+    </div>
+</div>
+  
