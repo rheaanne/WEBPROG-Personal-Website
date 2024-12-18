@@ -26,8 +26,12 @@
         padding: 10px;
         border-radius: 8px;
     }
-    .highlight {
-        background-color: #ff4081; /* Lighter pink */
+    .section {
+        margin: 30px 5%;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     .gallery img {
         margin: 10px;
@@ -45,91 +49,81 @@
 </head>
 <body>
 
-    <!-- Button Elements Section -->
-    <div class="container mt-3">
-        <h2>Button Elements</h2>
-        <button type="button" class="btn btn-success" id="highlightButton">Highlight All Headers</button>
-    </div>
-
     <h1>Personal Profile Webpage</h1>
 
-    <div class="container my-5">
-        <!-- About Me Section -->
-        <div class="section mb-4">
-            <h2>About Me</h2>
-            <p>Hello, I'm Rhea. You can call me "Eyya." I'm a province girl from Isabela. An anonymous person gave me the opportunity to continue my studies at a college here in Makati. I never thought I would leave my small town and move to the big city.</p>
-        </div>
+    <!-- Buttons to Navigate -->
+    <div class="container mt-3">
+        <h2>Navigate to Sections</h2>
+        <a href="#aboutMe" class="btn btn-primary mb-2">About Me</a>
+        <a href="#education" class="btn btn-primary mb-2">Education & Achievements</a>
+        <a href="#itExperience" class="btn btn-primary mb-2">IT Experience</a>
+        <a href="#hobbies" class="btn btn-primary mb-2">Hobbies & Interests</a>
+        <a href="#goals" class="btn btn-primary mb-2">Goals in Life</a>
+        <a href="#gallery" class="btn btn-primary mb-2">Picture Gallery</a>
+    </div>
 
-        <!-- Education & Achievements Section -->
-        <div class="section mb-4">
-            <h2>Education & Achievements</h2>
-            <p><strong>Elementary:</strong> Binguang Elementary School (2016-2017)</p>
-            <p><strong>Secondary:</strong> San Pablo National High School (2020-2021) - Graduated with Honors</p>
-            <p><strong>Senior High:</strong> San Pablo National High School (2022-2023) - Graduated with Honors</p>
-            <p><strong>Tertiary:</strong> Asia Pacific College (2022-2023)</p>
-            <ul>
-                <li>Executive Director of APC-MSC Membership Committee</li>
-                <li>With Honors (2023-2024)</li>
-            </ul>
-            <p><strong>Course:</strong> Bachelor of Science in Information Technology</p>
-        </div>
+    <!-- About Me Section -->
+    <div class="section" id="aboutMe">
+        <h2>About Me</h2>
+        <p>Hello, I'm Rhea. You can call me "Eyya." I'm a province girl from Isabela. An anonymous person gave me the opportunity to continue my studies at a college here in Makati. I never thought I would leave my small town and move to the big city.</p>
+    </div>
 
-        <!-- IT Experience Section -->
-        <div class="section mb-4">
-            <h2>IT Experience</h2>
-            <p>In my first year, I gained experience coding with Java and Python. I learned basic tools for using a computer, though my knowledge was limited in high school.</p>
-        </div>
+    <!-- Education & Achievements Section -->
+    <div class="section" id="education">
+        <h2>Education & Achievements</h2>
+        <p><strong>Elementary:</strong> Binguang Elementary School (2016-2017)</p>
+        <p><strong>Secondary:</strong> San Pablo National High School (2020-2021) - Graduated with Honors</p>
+        <p><strong>Senior High:</strong> San Pablo National High School (2022-2023) - Graduated with Honors</p>
+        <p><strong>Tertiary:</strong> Asia Pacific College (2022-2023)</p>
+        <ul>
+            <li>Executive Director of APC-MSC Membership Committee</li>
+            <li>With Honors (2023-2024)</li>
+        </ul>
+        <p><strong>Course:</strong> Bachelor of Science in Information Technology</p>
+    </div>
 
-        <!-- Hobbies & Interests Section -->
-        <div class="section mb-4">
-            <h2>Hobbies & Interests</h2>
-            <p>I love reading books, exploring technology, engaging in sports, and finding all sorts of engaging things to do.</p>
-        </div>
+    <!-- IT Experience Section -->
+    <div class="section" id="itExperience">
+        <h2>IT Experience</h2>
+        <p>In my first year, I gained experience coding with Java and Python. I learned basic tools for using a computer, though my knowledge was limited in high school.</p>
+    </div>
 
-        <!-- Goals in Life Section -->
-        <div class="section mb-4">
-            <h2>Goals in Life</h2>
-            <p>My dream is to pursue an IT degree and start my own tech company.</p>
-        </div>
+    <!-- Hobbies & Interests Section -->
+    <div class="section" id="hobbies">
+        <h2>Hobbies & Interests</h2>
+        <p>I love reading books, exploring technology, engaging in sports, and finding all sorts of engaging things to do.</p>
+    </div>
 
-        <!-- Picture Gallery Section -->
-        <div class="section gallery mb-4">
-            <h2>Picture Gallery</h2>
-            <div class="row">
-                <div class="col-md-4 mb-3">
-                    <img src="https://i.ibb.co/wgYmVKb/image1.jpg" alt="Gallery Image 1" class="img-fluid">
-                </div>
-                <div class="col-md-4 mb-3">
-                    <img src="https://i.ibb.co/8j5PQKX/image2.jpg" alt="Gallery Image 2" class="img-fluid">
-                </div>
-                <div class="col-md-4 mb-3">
-                    <img src="https://i.ibb.co/wJycv0v/image3.jpg" alt="Gallery Image 3" class="img-fluid">
-                </div>
-                <div class="col-md-4 mb-3">
-                    <img src="https://i.ibb.co/JkcrR7M/image4.jpg" alt="Gallery Image 4" class="img-fluid">
-                </div>
-                <div class="col-md-4 mb-3">
-                    <img src="https://i.ibb.co/pjXj3nv/image5.jpg" alt="Gallery Image 5" class="img-fluid">
-                </div>
-                <div class="col-md-4 mb-3">
-                    <img src="https://i.ibb.co/TvdjQwF/image6.jpg" alt="Gallery Image 6" class="img-fluid">
-                </div>
+    <!-- Goals in Life Section -->
+    <div class="section" id="goals">
+        <h2>Goals in Life</h2>
+        <p>My dream is to pursue an IT degree and start my own tech company.</p>
+    </div>
+
+    <!-- Picture Gallery Section -->
+    <div class="section gallery" id="gallery">
+        <h2>Picture Gallery</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <img src="https://i.ibb.co/wgYmVKb/image1.jpg" alt="Gallery Image 1" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="https://i.ibb.co/8j5PQKX/image2.jpg" alt="Gallery Image 2" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="https://i.ibb.co/wJycv0v/image3.jpg" alt="Gallery Image 3" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="https://i.ibb.co/JkcrR7M/image4.jpg" alt="Gallery Image 4" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="https://i.ibb.co/pjXj3nv/image5.jpg" alt="Gallery Image 5" class="img-fluid">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="https://i.ibb.co/TvdjQwF/image6.jpg" alt="Gallery Image 6" class="img-fluid">
             </div>
         </div>
     </div>
-
-    <!-- JavaScript to add functionality -->
-    <script>
-        document.getElementById('highlightButton').addEventListener('click', function() {
-            // Get all h2 elements on the page
-            var h2Elements = document.querySelectorAll('h2');
-            
-            // Toggle 'highlight' class on each h2 element
-            h2Elements.forEach(function(h2) {
-                h2.classList.toggle('highlight');
-            });
-        });
-    </script>
 
 </body>
 </html>
