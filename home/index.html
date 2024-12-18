@@ -45,6 +45,26 @@
     .gallery img:hover {
         transform: scale(1.05);
     }
+    
+    /* Custom styles for buttons */
+    .btn-custom {
+        background-color: #ec407a;  /* Medium pink */
+        color: #fff;
+        padding: 12px 20px;  /* Increase size */
+        font-size: 16px;  /* Increase font size */
+        border-radius: 8px;
+        margin-bottom: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-custom:hover {
+        background-color: #d81b60;  /* Deep pink on hover */
+    }
+
+    .btn-container a {
+        display: block;
+        margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
@@ -52,14 +72,14 @@
     <h1>Personal Profile Webpage</h1>
 
     <!-- Buttons to Navigate -->
-    <div class="container mt-3">
+    <div class="container mt-3 btn-container">
         <h2>Navigate to Sections</h2>
-        <a href="#aboutMe" class="btn btn-primary mb-2">About Me</a>
-        <a href="#education" class="btn btn-primary mb-2">Education & Achievements</a>
-        <a href="#itExperience" class="btn btn-primary mb-2">IT Experience</a>
-        <a href="#hobbies" class="btn btn-primary mb-2">Hobbies & Interests</a>
-        <a href="#goals" class="btn btn-primary mb-2">Goals in Life</a>
-        <a href="#gallery" class="btn btn-primary mb-2">Picture Gallery</a>
+        <a href="#aboutMe" class="btn btn-custom">About Me</a>
+        <a href="#education" class="btn btn-custom">Education & Achievements</a>
+        <a href="#itExperience" class="btn btn-custom">IT Experience</a>
+        <a href="#hobbies" class="btn btn-custom">Hobbies & Interests</a>
+        <a href="#goals" class="btn btn-custom">Goals in Life</a>
+        <a href="#gallery" class="btn btn-custom">Picture Gallery</a>
     </div>
 
     <!-- About Me Section -->
