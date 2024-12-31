@@ -45,8 +45,6 @@
     .gallery img:hover {
         transform: scale(1.05);
     }
-    
-    /* Custom styles for buttons */
     .btn-custom {
         background-color: #ec407a;  /* Medium pink */
         color: #fff;
@@ -56,14 +54,21 @@
         margin-bottom: 10px;
         transition: background-color 0.3s ease;
     }
-
     .btn-custom:hover {
         background-color: #d81b60;  /* Deep pink on hover */
     }
-
-    .btn-container a {
-        display: block;
-        margin-bottom: 10px;
+    .btn-container {
+        position: sticky;
+        top: 10px;
+        z-index: 1000;
+        margin-bottom: 20px;
+    }
+    #scrollTopBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+        z-index: 1000;
     }
   </style>
 </head>
@@ -125,25 +130,37 @@
         <h2>Picture Gallery</h2>
         <div class="row">
             <div class="col-md-4 mb-3">
-                <img src="https://i.ibb.co/wgYmVKb/image1.jpg" alt="Gallery Image 1" class="img-fluid">
+                <img src="https://i.ibb.co/wgYmVKb/image1.jpg" alt="Gallery Image 1" class="img-fluid" loading="lazy">
             </div>
             <div class="col-md-4 mb-3">
-                <img src="https://i.ibb.co/8j5PQKX/image2.jpg" alt="Gallery Image 2" class="img-fluid">
+                <img src="https://i.ibb.co/8j5PQKX/image2.jpg" alt="Gallery Image 2" class="img-fluid" loading="lazy">
             </div>
             <div class="col-md-4 mb-3">
-                <img src="https://i.ibb.co/wJycv0v/image3.jpg" alt="Gallery Image 3" class="img-fluid">
+                <img src="https://i.ibb.co/wJycv0v/image3.jpg" alt="Gallery Image 3" class="img-fluid" loading="lazy">
             </div>
             <div class="col-md-4 mb-3">
-                <img src="https://i.ibb.co/JkcrR7M/image4.jpg" alt="Gallery Image 4" class="img-fluid">
+                <img src="https://i.ibb.co/JkcrR7M/image4.jpg" alt="Gallery Image 4" class="img-fluid" loading="lazy">
             </div>
             <div class="col-md-4 mb-3">
-                <img src="https://i.ibb.co/pjXj3nv/image5.jpg" alt="Gallery Image 5" class="img-fluid">
+                <img src="https://i.ibb.co/pjXj3nv/image5.jpg" alt="Gallery Image 5" class="img-fluid" loading="lazy">
             </div>
             <div class="col-md-4 mb-3">
-                <img src="https://i.ibb.co/TvdjQwF/image6.jpg" alt="Gallery Image 6" class="img-fluid">
+                <img src="https://i.ibb.co/TvdjQwF/image6.jpg" alt="Gallery Image 6" class="img-fluid" loading="lazy">
             </div>
         </div>
     </div>
+
+    <!-- Scroll to Top Button -->
+    <button onclick="scrollToTop()" id="scrollTopBtn" class="btn btn-custom">⬆ Top</button>
+    <script>
+        const btn = document.getElementById('scrollTopBtn');
+        window.onscroll = () => {
+            btn.style.display = window.scrollY > 300 ? 'block' : 'none';
+        };
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
 
 </body>
 </html>
