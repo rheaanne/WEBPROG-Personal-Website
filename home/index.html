@@ -9,7 +9,7 @@
     body {
       background-color: #e0f7fa; /* Light pastel blue */
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
     }
     .header {
       position: relative;
@@ -30,9 +30,10 @@
     .card-container {
       display: flex;
       justify-content: center;
-      align-items: center;
+      flex-wrap: wrap;
       gap: 20px;
       margin-top: 30px;
+      padding: 0 20px;
     }
     .card {
       width: 200px;
@@ -40,20 +41,22 @@
       border-radius: 12px;
       overflow: hidden;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s;
+      transition: transform 0.3s ease-in-out;
+      text-align: center;
     }
     .card:hover {
       transform: translateY(-10px);
     }
     .card img {
       width: 100%;
-      height: auto;
+      height: 150px;
+      object-fit: cover;
     }
     .card p {
-      text-align: center;
       margin: 10px 0;
       color: #555;
       font-size: 14px;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -61,31 +64,31 @@
 
 <div class="header">
   <h1>Personal Profile Webpage</h1>
-  <p class="subtext"> Welcome, I'm Rhea!</p>
+  <p class="subtext">Welcome, I'm Rhea!</p>
   <div class="card-container">
     <div class="card">
-      <img src="https://ibb.co/d5cv4Q3" alt="Card 1">
+      <img src="https://via.placeholder.com/200x150" alt="Card 1">
       <p>ABOUT ME</p>
     </div>
     <div class="card">
-      <img src="https://ibb.co/tZNSzzn" alt="Card 2">
+      <img src="https://via.placeholder.com/200x150" alt="Card 2">
       <p>MY EDUCATION AND ACHIEVEMENTS</p>
     </div>
     <div class="card">
-      <img src="https://ibb.co/7V9FQ6H" alt="Card 3">
-      <p> MY IT EXPERIENCE</p>
+      <img src="https://via.placeholder.com/200x150" alt="Card 3">
+      <p>MY IT EXPERIENCE</p>
     </div>
     <div class="card">
-        <img src="https://ibb.co/TrPvVdd" alt="Card 4">
-        <p> MY HOBBIES & INTEREST </p>
+      <img src="https://via.placeholder.com/200x150" alt="Card 4">
+      <p>MY HOBBIES & INTERESTS</p>
     </div>
     <div class="card">
-        <img src="https://ibb.co/CbG35Vs" alt="Card 5">
-        <p> MY GOALS IN LIFE</p>
+      <img src="https://via.placeholder.com/200x150" alt="Card 5">
+      <p>MY GOALS IN LIFE</p>
     </div>
     <div class="card">
-        <img src="https://ibb.co/j62L8jz" alt="Card 6">
-        <p> PICTURE GALLERY </p>
+      <img src="https://via.placeholder.com/200x150" alt="Card 6">
+      <p>PICTURE GALLERY</p>
     </div>
   </div>
 </div>
