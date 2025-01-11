@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #ffa7e3, #e49ee8); 
+    background: linear-gradient(135deg, hwb(309 71% 5%), #f768ff); 
     font-family: Arial, sans-serif;
     min-height: 100vh; 
     display: flex;
@@ -23,9 +23,10 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 0%;
+    margin-top: 0;
     color: #ffffff;
-    background-color: #f18ab0;
+    background-color: #ef66c6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 8px;
 }
