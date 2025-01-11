@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-
 body {
     background: linear-gradient(135deg, #ffa7e3, #e49ee8); 
     font-family: Arial, sans-serif;
     min-height: 100vh; 
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
