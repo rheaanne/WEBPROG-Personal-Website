@@ -22,6 +22,7 @@ body {
 
 
 h1 {
+    margin: 0;
     text-align: center;
     color: #fef7f7;
     background: linear-gradient(90deg, #f768ff, #ef66c6, #ff69b4);
@@ -93,7 +94,7 @@ h1 {
   
   .social-media-icons a {
     display: inline-block;
-    margin: 0 10px;
+    margin: 50 50px;
   }
   
   .social-media-icons img {
