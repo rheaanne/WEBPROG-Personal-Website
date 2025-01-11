@@ -23,13 +23,30 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 0;
     color: #ffffff;
-    background-color: #ef66c6;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, #f768ff, #ef66c6, #ff69b4);
+    -webkit--clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 36px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 12px;
+    border: 2px solid #ffffff;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    animation: glow 2s infinite alternate;
 }
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 4px 8px rgba(255, 105, 180, 0.5);
+    }
+    100% {
+        box-shadow: 0 4px 16px rgba(255, 105, 180, 0.8);
+    }
+}
+
 
 .header .subtext {
     font-size: 18px;
