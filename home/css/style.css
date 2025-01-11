@@ -1,26 +1,30 @@
-body {
-    background-color: #e0f7fa;
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(135deg, #ffa7e3, #e49ee8); 
     font-family: Arial, sans-serif;
-    min-height: 100vh; 
-    display: flex; 
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
     flex-direction: column;
+    align-items: center; 
 }
 
 .header {
     text-align: center;
     padding: 50px 0;
-    background: linear-gradient(135deg, #ffa7e3, #e49ee8);
+    width: 100%; 
 }
 
 .header h1 {
-    color: #ffffff;
     font-size: 36px;
     font-weight: bold;
 }
 
 .header .subtext {
-    color: #ffffff;
     font-size: 18px;
 }
 
@@ -29,17 +33,19 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 20px; 
-    flex: 1; 
+    padding: 20px;
+    width: 100%; 
 }
+
 
 .card {
     width: 200px;
-    background: #ffffff;
+    background: #ffffff; 
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    color: #555; 
 }
 
 .card img {
@@ -50,7 +56,6 @@ body {
 
 .card p {
     margin: 10px 0;
-    color: #555;
     font-size: 14px;
     font-weight: bold;
 }
