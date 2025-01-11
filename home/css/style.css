@@ -23,10 +23,10 @@ body {
 
 h1 {
     text-align: center;
-    color: #0a0a0a;
+    color: #fef7f7;
     background: linear-gradient(90deg, #f768ff, #ef66c6, #ff69b4);
     -webkit--clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: #ffffff; 
     font-size: 36px;
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
