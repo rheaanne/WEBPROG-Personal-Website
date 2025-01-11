@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 
@@ -93,12 +94,15 @@ h1 {
   }
   
   .social-media-icons a {
-    display: inline-block;
-    margin: 50 200px;
-  }
+        text-align: center;
+        margin-top: 20px; 
+        position: fixed; 
+        bottom: 20px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+      }
   
   .social-media-icons img {
-    scroll-margin-bottom: 20px;
     width: 100px; 
     height: 100px;
   }
