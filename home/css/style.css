@@ -63,3 +63,18 @@ body {
     font-size: 14px;
     font-weight: bold;
 }
+
+.social-media-icons {
+    text-align: center; 
+    margin-top: 20px; 
+  }
+  
+  .social-media-icons a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-media-icons img {
+    width: 30px; 
+    height: 30px;
+  }
