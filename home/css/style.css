@@ -15,6 +15,7 @@ body {
 
 
 .header {
+    background-color: #ffffff7c;
     text-align: center;
     color: white;
     width: 100%;
@@ -31,7 +32,7 @@ h1 {
     background: linear-gradient(90deg, #da88de, #ff83da, #e663a5);
     -webkit--clip: text;
     -webkit-text-fill-color: #ffffff; 
-    font-size: 20px;
+    font-size: 36px;
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     padding: 10px;
