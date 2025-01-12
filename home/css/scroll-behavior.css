@@ -1,34 +1,64 @@
 html {
-    scroll-behavior: smooth;
-  }
-  
-  .section1 {
-    height: 600px;
-    background-color: pink;
-  }
-  
-  .section2 {
-    height: 600px;
-    background-color: yellow;
-  }
-  
-  .section3 {
-    height: 600px;
-    background-color: yellow;
-  }
-  
-  .section4 {
-    height: 600px;
-    background-color: yellow;
-  }
+  scroll-behavior: smooth; /* Enables smooth scrolling between sections */
+}
 
-  .section5 {
-    height: 600px;
-    background-color: yellow;
-  }
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
 
-  .section6 {
-    height: 600px;
-    background-color: yellow;
-  }
+.section {
+  height: 600px; /* Uniform height for all sections */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
 
+/* Section-specific styles with gradients for a modern look */
+.section1 {
+  background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+  color: #ffffff;
+}
+
+.section2 {
+  background: linear-gradient(120deg, #f6d365, #fda085);
+  color: #000000;
+}
+
+.section3 {
+  background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+  color: #000000;
+}
+
+.section4 {
+  background: linear-gradient(120deg, #d4fc79, #96e6a1);
+  color: #000000;
+}
+
+.section5 {
+  background: linear-gradient(120deg, #84fab0, #8fd3f4);
+  color: #000000;
+}
+
+.section6 {
+  background: linear-gradient(120deg, #fccb90, #d57eeb);
+  color: #ffffff;
+}
+
+/* Additional tweaks for responsiveness and readability */
+.section p {
+  max-width: 600px; /* Keeps text readable on large screens */
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .section {
+    font-size: 18px; /* Adjust text size for smaller screens */
+    padding: 15px;
+  }
+}
