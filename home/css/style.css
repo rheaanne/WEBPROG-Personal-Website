@@ -28,7 +28,7 @@ h1 {
     margin: 0;
     text-align: center;
     color: #fef7f7;
-    background: linear-gradient(90deg, #60173b, #a90b7a, #e663a5);
+    background: linear-gradient(90deg, #f59fca, #faa8a8, #f198f9, #97c9fa, #c7e3fe);
     -webkit--clip: text;
     -webkit-text-fill-color: #ffffff; 
     font-size: 20px;
@@ -61,7 +61,7 @@ h1 {
 
 .card-container {
     display: flex;
-    justify-content: curve;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     margin: 20px;
