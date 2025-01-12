@@ -78,7 +78,7 @@ body {
   font-size: larger;
   color: #000000; 
   border: 5px solid #9e7474;
-  margin-top: auto;
+  margin-top: 20px;
 }
 @media (max-width: 768px) {
   .section {
