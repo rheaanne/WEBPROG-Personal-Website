@@ -104,8 +104,8 @@ body {
     object-fit: cover; /* Scale the image to cover the container and crop the excess */
   }
   .card img {
-    width: 200px; 
-    height: 250px; 
+    width: 500px; 
+    height: 550px; 
   }
 }
 @media (max-width: 768px) {
