@@ -28,7 +28,7 @@ h1 {
     background: linear-gradient(90deg, #f768ff, #ef66c6, #ff69b4);
     -webkit--clip: text;
     -webkit-text-fill-color: #ffffff; 
-    font-size: 36px;
+    font-size: 20px;
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     padding: 20px;
@@ -50,7 +50,7 @@ h1 {
 
 
 .header .subtext {
-    font-size: 18px;
+    font-size: 15px;
     color: #ffffff;
 }
 
@@ -112,7 +112,7 @@ footer {
   }
   
   .social-media-icons img {
-    width: 100px; 
-    height: px;
+    width: 50px; 
+    height: 50px;
   }
   
