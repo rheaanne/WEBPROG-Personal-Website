@@ -20,7 +20,7 @@ body {
   width: 100%; 
   max-width: 1200px;
   display: flex; 
-  min-height: 600px; 
+  min-height: 800px; 
   padding: 100px; 
   
 }
@@ -99,9 +99,9 @@ body {
   border: 5px solid #9e7474;
   margin-top: 20px;
   .card img {
-    width: 100%; /* Make the image fill the width of the container */
-    height: 300px; /* Maintain aspect ratio */
-    object-fit: cover; /* Scale the image to cover the container and crop the excess */
+    width: 300px; 
+    height: 300px;
+    object-fit: cover; 
   }
   .card img {
     width: 500px; 
