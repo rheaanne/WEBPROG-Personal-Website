@@ -1,0 +1,34 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  #section1 {
+    height: 600px;
+    background-color: pink;
+  }
+  
+  #section2 {
+    height: 600px;
+    background-color: yellow;
+  }
+  
+#section3 {
+  height: 600px;
+  background-color: yellow;
+}
+  
+#section4 {
+  height: 600px;
+  background-color: yellow;
+}
+
+#section5 {
+  height: 600px;
+  background-color: yellow;
+}
+
+#section6 {
+  height: 600px;
+  background-color: yellow;
+}
+
