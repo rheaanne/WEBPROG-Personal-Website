@@ -17,7 +17,8 @@ body {
   box-shadow: 0 0 10px rgba(151, 143, 143, 0.416); /* Adjust shadow intensity */
   padding: 20px; 
   margin: 20px auto; /* Center the container horizontally */
-  max-width: 800px; /* Adjust max-width as needed */
+  width: 800px;
+  height: min-content; /* Adjust max-width as needed */
 }
 
 .section {
