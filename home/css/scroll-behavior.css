@@ -44,13 +44,42 @@ body {
   margin: 10px 0; /* Adds spacing between paragraphs */
 }
 
-.section1, .section2, .section3, .section4, .section5, .section6 {
+.section1{
   font-size: larger;
   color: #000000; 
-  border: 5px solid #000000;
-  margin-top: auto;/* Ensures clear text visibility */
+  border: 5px solid #9e7474;
+  margin-top: auto;
 }
-
+.section2{
+  font-size: larger;
+  color: #000000; 
+  border: 5px solid #9e7474;
+  margin-top: auto;
+}
+.section3{
+  font-size: larger;
+  color: #000000; 
+  border: 5px solid #9e7474;
+  margin-top: auto;
+}
+.section4{
+  font-size: larger;
+  color: #000000; 
+  border: 5px solid #9e7474;
+  margin-top: auto;
+}
+.section5{
+  font-size: larger;
+  color: #000000; 
+  border: 5px solid #9e7474;
+  margin-top: auto;
+}
+.section6{
+  font-size: larger;
+  color: #000000; 
+  border: 5px solid #9e7474;
+  margin-top: auto;
+}
 @media (max-width: 768px) {
   .section {
     font-size: 20px; /* Adjusts text size for smaller screens */
