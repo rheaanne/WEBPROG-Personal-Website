@@ -8,7 +8,7 @@ body {
 }
 
 .section {
-  height: 600px; /* Uniform height for all sections */
+  height: 600px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,35 +19,34 @@ body {
   font-weight: bold;
 }
 
-/* Section-specific styles with gradients for a modern look */
 .section1 {
-  background: linear-gradient(120deg, #ff9a9e, #fad0c4);
-  color: #ffffff;
+  background-color: #ffffff7c;
+  color: #000000;
 }
 
 .section2 {
-  background: linear-gradient(120deg, #f6d365, #fda085);
+  background-color: #ffffff7c; 
   color: #000000;
 }
 
 .section3 {
-  background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+  background-color: #ffffff7c; 
   color: #000000;
 }
 
 .section4 {
-  background: linear-gradient(120deg, #d4fc79, #96e6a1);
+  background-color: #ffffff7c; 
   color: #000000;
 }
 
 .section5 {
-  background: linear-gradient(120deg, #84fab0, #8fd3f4);
+  background-color: #ffffff7c; 
   color: #000000;
 }
 
 .section6 {
-  background: linear-gradient(120deg, #fccb90, #d57eeb);
-  color: #ffffff;
+  background-color: #ffffff7c; 
+  color: #000000;
 }
 
 /* Additional tweaks for responsiveness and readability */

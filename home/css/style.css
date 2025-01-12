@@ -52,6 +52,23 @@ h1 {
     }
 }
 
+h2 {
+    margin: 0;
+    text-align: center;
+    color: #fef7f7;
+    background: linear-gradient(90deg, #da88de, #ff83da, #e663a5);
+    -webkit--clip: text;
+    -webkit-text-fill-color: #ffffff; 
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid #ffffff;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    animation: glow 2s infinite alternate;
+}
 
 .header .subtext {
     margin-top: 15px;
