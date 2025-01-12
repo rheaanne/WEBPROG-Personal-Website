@@ -33,7 +33,7 @@ h1 {
     background: linear-gradient(90deg, #da88de, #ff83da, #e663a5);
     -webkit--clip: text;
     -webkit-text-fill-color: #ffffff; 
-    font-size: 36px;
+    font-size: 20px;
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     padding: 10px;
@@ -60,7 +60,7 @@ h2 {
     background: linear-gradient(90deg, #da88de, #ff83da, #e663a5);
     -webkit--clip: text;
     -webkit-text-fill-color: #ffffff; 
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     padding: 10px;
@@ -73,7 +73,7 @@ h2 {
 
 .header .subtext {
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 25px;
     color: #ffffff;
 }
 
