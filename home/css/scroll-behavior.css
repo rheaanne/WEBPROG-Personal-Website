@@ -11,12 +11,12 @@ body {
 }
 
 .container {
-  max-width: 1000px; /* Limits the container width for better readability */
-  width: 100%;
+  max-width: 800px; /* Limits the container width for better readability */
+  width: 300%;
   max-height: 500px; /* Ensures responsiveness on small screens */
 }
 
-.section p {
+.section {
   height: 600px; /* Uniform height for all sections */
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@ body {
   text-align: center;
   padding: 20px;
   color: #333;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for better separation */
   margin: 10px 0; /* Adds space between sections */
