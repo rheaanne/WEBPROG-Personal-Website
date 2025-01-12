@@ -12,7 +12,7 @@ body {
 
 .container {
   max-width: 800px; /* Limits the container width for better readability */
-  width: 100%;
+  width: 400%;
   max-height: 500px; /* Ensures responsiveness on small screens */
 }
 
