@@ -7,6 +7,10 @@ body {
   font-family: 'Arial', sans-serif;
 }
 
+.container {
+  width: 800px; 
+}
+
 .section {
   height: 600px; 
   display: flex;
@@ -49,15 +53,14 @@ body {
   color: #000000;
 }
 
-/* Additional tweaks for responsiveness and readability */
 .section p {
-  max-width: 600px; /* Keeps text readable on large screens */
+  max-width: 600px; 
   line-height: 1.5;
 }
 
 @media (max-width: 768px) {
   .section {
-    font-size: 18px; /* Adjust text size for smaller screens */
-    padding: 15px;
+    font-size: 25px; 
+    padding: 20px;
   }
 }
