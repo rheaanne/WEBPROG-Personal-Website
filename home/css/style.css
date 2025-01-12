@@ -16,10 +16,9 @@ body {
 
 .header {
     background-color: #ff69b4; 
-    padding: 20px;
     text-align: center;
     color: white;
-    margin-top: auto; 
+    margin-block-end: auto; 
     width: 100%;
     text-align: center;
     padding: 50px 0;
