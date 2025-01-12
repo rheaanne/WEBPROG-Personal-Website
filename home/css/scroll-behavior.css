@@ -20,7 +20,7 @@ body {
 }
 
 .section {
-  height: auto; /* Allows sections to adapt to their content height */
+  height: 300; /* Allows sections to adapt to their content height */
   min-height: 300px; /* Sets a minimum height to ensure uniformity */
   display: flex;
   flex-direction: column;
@@ -38,41 +38,41 @@ body {
 }
 
 .section p {
-  max-width: 600px; /* Keeps text width manageable for readability */
+  max-width: 800px; /* Keeps text width manageable for readability */
   line-height: 1.6;
-  font-size: 18px; /* Adjusts font size for readability */
-  margin: 10px 0; /* Adds spacing between paragraphs */
+  font-size: 20px; /* Adjusts font size for readability */
+  margin: 15px 0; /* Adds spacing between paragraphs */
 }
 
 .section1{
   font-size: larger;
   color: #000000; 
   border: 5px solid #9e7474;
-  margin-top: auto;
+  margin-top: 20px;
 }
 .section2{
   font-size: larger;
   color: #000000; 
   border: 5px solid #9e7474;
-  margin-top: auto;
+  margin-top: 20px;
 }
 .section3{
   font-size: larger;
   color: #000000; 
   border: 5px solid #9e7474;
-  margin-top: auto;
+  margin-top: 20px;
 }
 .section4{
   font-size: larger;
   color: #000000; 
   border: 5px solid #9e7474;
-  margin-top: auto;
+  margin-top: 20px;
 }
 .section5{
   font-size: larger;
   color: #000000; 
   border: 5px solid #9e7474;
-  margin-top: auto;
+  margin-top: 20PX;
 }
 .section6{
   font-size: larger;
