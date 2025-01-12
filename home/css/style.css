@@ -101,3 +101,13 @@ h1 {
     width: 100px; 
     height: px;
   }
+  footer {
+    
+    background-color: #ff69b4; 
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
