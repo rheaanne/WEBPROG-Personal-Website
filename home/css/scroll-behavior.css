@@ -13,10 +13,11 @@ body {
 }
 
 .container {
-  max-width: 800px; /* Limits the container width for better readability */
-  width: 100%;
-  padding: 20px; /* Adds padding for better spacing */
-  box-sizing: border-box; /* Includes padding in width calculation */
+  border: 10px solid #f0f; /* Adjust border width and color as needed */
+  box-shadow: 0 0 10px rgba(151, 143, 143, 0.416); /* Adjust shadow intensity */
+  padding: 20px; 
+  margin: 20px auto; /* Center the container horizontally */
+  max-width: 800px; /* Adjust max-width as needed */
 }
 
 .section {
@@ -85,6 +86,15 @@ body {
   color: #000000; 
   border: 5px solid #9e7474;
   margin-top: 20px;
+  .card img {
+    width: 100%; /* Make the image fill the width of the container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Scale the image to cover the container and crop the excess */
+  }
+  .card img {
+    width: 200px; 
+    height: 250px; 
+  }
 }
 @media (max-width: 768px) {
   .section {
