@@ -46,7 +46,8 @@ body {
 
 .section1, .section2, .section3, .section4, .section5, .section6 {
   font-size: larger;
-  color: #000000; /* Ensures clear text visibility */
+  color: #000000; 
+  border: 5px solid #000000;/* Ensures clear text visibility */
 }
 
 @media (max-width: 768px) {
