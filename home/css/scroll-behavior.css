@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth; /* Enables smooth scrolling between sections */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -7,27 +7,28 @@ body {
   font-family: 'Arial', sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers the container horizontally */
-  background: linear-gradient(to right, #f8b3e8, #c4e8fc); /* Adds a gradient background for aesthetics */
+  align-items: center; 
+  background: linear-gradient(to right, #f8b3e8, #c4e8fc); 
   color: #333;
 }
 
 .container {
-  border: 10px solid #f0f; /* Adjust border width and color as needed */
-  box-shadow: 0 0 10px rgba(151, 143, 143, 0.416); /* Adjust shadow intensity */
-  margin: 20px auto; /* Center the container horizontally */
+  border: 10px solid #f0f;
+  flex-direction: column; 
+  box-shadow: 0 0 10px rgba(151, 143, 143, 0.416); 
+  margin: 20px auto; 
   width: 800px;
   display: flex;
   flex-direction: column; 
   min-height: 600px; 
   padding: 20px; 
-   /* Adjust max-width as needed */
+  
 }
 
 .section {
   flex-grow: 1;
-  height: 300; /* Allows sections to adapt to their content height */
-  min-height: 300px; /* Sets a minimum height to ensure uniformity */
+  height: 300;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
