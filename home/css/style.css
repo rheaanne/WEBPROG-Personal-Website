@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, #da88de, #ff83da, #e663a5);
+    background: linear-gradient(90deg, #f59fca, #faa8a8, #f198f9, #97c9fa, #c7e3fe);
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh; 
     display: flex;
@@ -28,7 +28,7 @@ h1 {
     margin: 0;
     text-align: center;
     color: #fef7f7;
-    background: linear-gradient(90deg, #f59fca, #faa8a8, #f198f9, #97c9fa, #c7e3fe);
+    background: linear-gradient(90deg, #da88de, #ff83da, #e663a5);
     -webkit--clip: text;
     -webkit-text-fill-color: #ffffff; 
     font-size: 20px;
