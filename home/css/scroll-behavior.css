@@ -8,17 +8,22 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; /* Centers the container horizontally */
+  background: linear-gradient(to right, #f8b3e8, #c4e8fc); /* Adds a gradient background for aesthetics */
+  color: #333;
 }
 
 .container {
   max-width: 800px; /* Limits the container width for better readability */
   width: 100%;
-  max-height: 500px; /* Ensures responsiveness on small screens */
+  padding: 20px; /* Adds padding for better spacing */
+  box-sizing: border-box; /* Includes padding in width calculation */
 }
 
 .section {
-  height: 600px; /* Uniform height for all sections */
+  height: auto; /* Allows sections to adapt to their content height */
+  min-height: 300px; /* Sets a minimum height to ensure uniformity */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -27,26 +32,39 @@ body {
   font-size: 24px;
   font-weight: bold;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for better separation */
-  margin: 10px 0; /* Adds space between sections */
+  margin: 15px 0; /* Adds space between sections */
   border-radius: 12px; /* Adds rounded corners for a modern look */
-}
-
-.section1, .section2, .section3, .section4, .section5, .section6 {
   background-color: rgba(255, 255, 255, 0.8); /* Sets a semi-transparent background */
-  color: #000000;
 }
 
 .section p {
   max-width: 600px; /* Keeps text width manageable for readability */
-  line-height: 1.5;
+  line-height: 1.6;
+  font-size: 18px; /* Adjusts font size for readability */
+  margin: 10px 0; /* Adds spacing between paragraphs */
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6 {
+  color: #000000; /* Ensures clear text visibility */
 }
 
 @media (max-width: 768px) {
   .section {
     font-size: 20px; /* Adjusts text size for smaller screens */
     padding: 15px;
+    min-height: 250px; /* Reduces minimum height for smaller screens */
   }
   .container {
     padding: 10px; /* Adds padding to the container for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    font-size: 18px; /* Further adjusts font size for very small screens */
+    padding: 10px;
+  }
+  .section p {
+    font-size: 16px; /* Makes text smaller for narrow screens */
   }
 }
