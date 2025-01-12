@@ -15,7 +15,7 @@ body {
 
 
 .header {
-    background-color: #ff91c8; 
+    background-color: #60173b; 
     text-align: center;
     color: white;
     margin-block-end: auto; 
@@ -36,7 +36,7 @@ h1 {
     font-size: 20px;
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    padding: 20px;
+    padding: 10px;
     border-radius: 12px;
     border: 2px solid #ffffff;
     text-transform: uppercase; 
@@ -99,7 +99,7 @@ h1 {
     color: #000;
 }
 footer {
-    background-color: #ff69b4; 
+    background-color: #60173b; 
     padding: 20px;
     text-align: center;
     color: white;
@@ -119,6 +119,7 @@ footer {
   }
   
   .social-media-icons img {
+    margin-bottom: 10px;
     width: 50px; 
     height: 50px;
   }
