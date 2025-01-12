@@ -15,7 +15,7 @@ body {
 
 
 .header {
-    background-color: #ff69b4; 
+    background-color: #ff91c8; 
     text-align: center;
     color: white;
     margin-block-end: auto; 
@@ -55,7 +55,8 @@ h1 {
 
 
 .header .subtext {
-    font-size: 15px;
+    margin-top: 15px;
+    font-size: 20px;
     color: #ffffff;
 }
 
@@ -108,7 +109,8 @@ footer {
 
 .social-media-icons {
     text-align: center; 
-    margin-top: 20px; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
   }
   
   .social-media-icons a {
