@@ -89,10 +89,14 @@
 
   <div id="gallery" class="section6">
     <h2>Picture Gallery</h2>
-      <div class="flex-container">
-        <img src="https://i.ibb.co/h7KTs49/image1.jpg" alt="Gallery Image 1">
-        <img src="https://i.ibb.co/G5V5nxM/image2.jpg" alt="Gallery Image 2">
+    <div id="app2">
+      <div>
+          <figure v-for="x in Gallery">
+                  <img v-bind:src="x.url">
+              <figcaption>{{ x.name }}</figcaption>
+          </figure>
       </div>
+  </div>
   </div>
 </div>
 
@@ -110,6 +114,9 @@
   </div>
   <h1>&copy; 2024 Rhea Anne Danao</h1>
 </footer>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="js/image.js"></script>
 
 </body>
 </html>
