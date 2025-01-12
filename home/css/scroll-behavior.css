@@ -21,7 +21,7 @@ body {
   max-width: 1200px;
   display: flex; 
   min-height: 600px; 
-  padding: 20px; 
+  padding: 100px; 
   
 }
 
@@ -54,7 +54,7 @@ body {
 .section1{
   flex-grow: 1;
   background-color: #ffffff7c; 
-  font-size: larger;
+  font-size: 30px;
   color: #000000; 
   border: 5px solid #9e7474;
   margin-top: 20px;
@@ -62,7 +62,7 @@ body {
 .section2{
   flex-grow: 1;
   background-color: #ffffff7c; 
-  font-size: larger;
+  font-size: 30px;
   color: #000000; 
   border: 5px solid #9e7474;
   margin-top: 20px;
@@ -70,7 +70,7 @@ body {
 .section3{
   flex-grow: 1;
   background-color: #ffffff7c; 
-  font-size: larger;
+  font-size: 30px;
   color: #000000; 
   border: 5px solid #9e7474;
   margin-top: 20px;
@@ -78,7 +78,7 @@ body {
 .section4{
   flex-grow: 1;
   background-color: #ffffff7c; 
-  font-size: larger;
+  font-size: 30px;
   color: #000000; 
   border: 5px solid #9e7474;
   margin-top: 20px;
@@ -86,7 +86,7 @@ body {
 .section5{
   flex-grow: 1;
   background-color: #ffffff7c; 
-  font-size: larger;
+  font-size: 30px;
   color: #000000; 
   border: 5px solid #9e7474;
   margin-top: 20PX;
@@ -94,13 +94,13 @@ body {
 .section6{
   flex-grow: 1;
   background-color: #ffffff7c; 
-  font-size: larger;
+  font-size: 30px;
   color: #000000; 
   border: 5px solid #9e7474;
   margin-top: 20px;
   .card img {
     width: 100%; /* Make the image fill the width of the container */
-    height: auto; /* Maintain aspect ratio */
+    height: 300px; /* Maintain aspect ratio */
     object-fit: cover; /* Scale the image to cover the container and crop the excess */
   }
   .card img {
@@ -110,7 +110,7 @@ body {
 }
 @media (max-width: 768px) {
   .section {
-    font-size: 20px; /* Adjusts text size for smaller screens */
+    font-size: 30px; /* Adjusts text size for smaller screens */
     padding: 15px;
     min-height: 250px; /* Reduces minimum height for smaller screens */
   }
@@ -121,7 +121,7 @@ body {
 
 @media (max-width: 480px) {
   .section {
-    font-size: 18px; /* Further adjusts font size for very small screens */
+    font-size: 20px; /* Further adjusts font size for very small screens */
     padding: 10px;
   }
   .section p {
