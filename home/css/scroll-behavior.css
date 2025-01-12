@@ -17,9 +17,9 @@ body {
   flex-direction: column; 
   box-shadow: 0 0 10px rgba(151, 143, 143, 0.416); 
   margin: 20px auto; 
-  width: 800px;
-  display: flex;
-  flex-direction: column; 
+  width: 100%; 
+  max-width: 1200px;
+  display: flex; 
   min-height: 600px; 
   padding: 20px; 
   
