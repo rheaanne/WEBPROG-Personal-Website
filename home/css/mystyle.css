@@ -39,7 +39,7 @@ nav a:hover {
 }
 .hero {
   position: relative;
-  background: url('https://i.ibb.co/xGw4KLg.jpg') center/cover no-repeat;
+  background: url(<a href="https://ibb.co/xGw4KLg"><img src="https://i.ibb.co/S0HLDym/3aeae4df-cd4b-4d21-8214-1ce7b466014d.jpg" alt="3aeae4df-cd4b-4d21-8214-1ce7b466014d" border="0" /></a>') center/cover no-repeat;
   height: 100vh;
   color: white;
   display: flex;
