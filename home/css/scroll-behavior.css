@@ -13,7 +13,6 @@ body {
 }
 
 .container {
-  border: 10px solid #f0f;
   flex-direction: column; 
   box-shadow: 0 0 10px rgba(151, 143, 143, 0.416); 
   margin: 20px auto; 
