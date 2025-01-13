@@ -1,26 +1,88 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
 body {
-  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
 }
-
-h1 {
+header {
+  background: #007BFF;
   color: white;
+  padding: 1rem 0;
   text-align: center;
 }
-
-p {
-  font-family: verdana;
-  font-size: 20px;
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
 }
-</style>
-</head>
-<body>
-
-<h1>My First CSS Example</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>
+nav {
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+  color: #007BFF;
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 0.5rem;
+}
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #333;
+  color: white;
+  margin-top: 2rem;
+}
+.section-box {
+  border: 1px solid #e0e0e0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #fce4ec;
+  border-radius: 5px;
+}
+.section-title {
+  font-weight: bold;
+  background: #f06292;
+  color: white;
+  padding: 0.5rem;
+  margin: -1rem -1rem 1rem;
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.gallery img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.social-icons {
+  margin-top: 1rem;
+}
+.social-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007BFF;
+}
