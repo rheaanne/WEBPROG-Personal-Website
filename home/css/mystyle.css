@@ -2,7 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url("https://i.ibb.co/S0HLDym/3aeae4df-cd4b-4d21-8214-1ce7b466014d.jpg") alt="3aeae4df-cd4b-4d21-8214-1ce7b466014d" border="0";
+  background-image: url("https://i.ibb.co/S0HLDym/3aeae4df-cd4b-4d21-8214-1ce7b466014d.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
   background-size: cover;
   color: #333;
   line-height: 1.6;
