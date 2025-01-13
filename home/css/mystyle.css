@@ -82,6 +82,7 @@ footer {
   margin-top: 1rem;
 }
 .social-icons a {
+  size: 25px;
   margin: 0 10px;
   text-decoration: none;
   color: #007BFF;
