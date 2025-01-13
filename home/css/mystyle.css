@@ -2,7 +2,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
+  background-image: url('https://i.ibb.co/S0HLDym/3aeae4df-cd4b-4d21-8214-1ce7b466014d.jpg');
+  background-size: cover;
   color: #333;
   line-height: 1.6;
 }
