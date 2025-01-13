@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
-    background: linear-gradient(90deg, #f59fca, #faa8a8, #f198f9, #97c9fa, #c7e3fe);
+    background-image: url('https://i.ibb.co/S0HLDym/3aeae4df-cd4b-4d21-8214-1ce7b466014d.jpg');
+    background-size: cover; 
+    background-position: center; 
     font-family: Arial, Helvetica, sans-serif;
-    min-height: 100vh; 
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
