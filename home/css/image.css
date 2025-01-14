@@ -7,7 +7,8 @@
   }
 
   figure {
-    width: 80px;
+    width: fit-content;
+    height: fit-content;
     padding: 10px;
     margin: 10px;
     background-color: #de88c7c5;
