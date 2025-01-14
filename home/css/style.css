@@ -65,27 +65,27 @@ h1 {
 }
 
 #about {
-    border-left: 5px solid #ff83da;
+    background-color: #de88c7c5;
 }
 
 #education {
-    border-left: 100px solid #e663a4c6;
+    background-color: #de88c7c5;
 }
 
 #experience {
-    border-left: 100px solid #e663a4c6;
+    background-color: #de88c7c5;
 }
 
 #hobbies {
-    border-left: 100px solid #e663a4c6;
+    background-color: #de88c7c5;
 }
 
 #goals {
-    border-left: 100px solid #e663a4c6;
+    background-color:  #de88c7c5;
 }
 
 #gallery {
-    border-left: 100px solid #e663a4c6;
+    background-color:  #de88c7c5;
 }
 
 .section h2 {
