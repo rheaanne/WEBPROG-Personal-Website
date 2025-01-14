@@ -87,17 +87,14 @@
       </div>
   </div>
 
-  <div id="gallery" class="section6">
+  <div id="gallery" class="section">
     <h2>Picture Gallery</h2>
     <div id="app2">
-      <div>
-          <figure v-for="x in Gallery">
-              <img v-bind:src="x.url">
-              <figcaption>{{ x.name }}</figcaption>
-          </figure>
-      </div>
+        <figure v-for="x in Gallery">
+            <img :src="x.url" alt="Gallery Image">
+            <figcaption>{{ x.name }}</figcaption>
+        </figure>
     </div>
-  </div>
 </div>
 
 <footer>
