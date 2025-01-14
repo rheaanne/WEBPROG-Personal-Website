@@ -87,15 +87,16 @@
       </div>
   </div>
 
-  <div id="gallery" class="section">
+  <div id="Gallery" class="section">
     <h2>Picture Gallery</h2>
-    <div id="app2">
-        <figure v-for="x in Gallery">
-            <img :src="x.url" alt="Gallery Image">
+    <div>
+        <figure v-for="x in Gallery" :key="x.name">
+            <img :src="x.url" :alt="x.name">
             <figcaption>{{ x.name }}</figcaption>
         </figure>
     </div>
 </div>
+
 
 <footer>
   <div class="social-media-icons">
