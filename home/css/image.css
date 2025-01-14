@@ -1,0 +1,23 @@
+#Gallery > div {
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  figure {
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #de88c7c5;
+    ;
+    border-radius: 5px;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+  img {
+    width: 100%;
+  }
